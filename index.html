@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>subscription service </title>
+        <link rel="stylesheet" 
+        type="text/css" 
+        href="css/style.css">
+        <style>
+            body{
+            font-family: Arial, sans-serif; 
+            background-color: #f0f0f0;
+            text-align: left;
+            }
+            .container{
+                max-width: 600px;
+                margin: auto;
+                padding: 20px;
+                background:white;
+                box-shadow:0 0 10px rgba(0,0,0, 0.1);
+            }
+            .community-title{
+                color: #39ddbcfa;
+                font-size: 16px;
+            }
+            .guarantee{
+                color: #98ee0d;
+            }
+            .subscription{
+                background-color: #32c5a8fa;
+                padding: 20px;
+                color: #ffffff;
+                border-radius: 0;
+                box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+                text-align: left;
+            }
+            .subscription h2{
+                margin-top: 0;
+            }
+            Button{
+                background: hsl(96, 100%, 50%);
+                border: none;
+                padding: 10px 180px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            .why-us{
+                background-color: #39ddbcfa;
+                padding: 20px;
+                border-radius: 0;
+                box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+                text-align: left;
+            }
+             h3{
+                color: #fdfdfd;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            ul{
+               list-style: none; 
+               padding: 0;
+               margin: 0;
+               padding: 20px;
+               border-radius: 10px;
+            }
+            li{
+                padding: 10px;
+                border-bottom: none;
+                color: white;
+                text-align: left;
+            }
+            li::before{
+                content: none;
+            }
+        </style>
+    </head>
+            <body>
+               <div class="container">
+            </header>
+            <h1 class="community-title"> join our community</h1>
+            <p class="guarantee">30-day, hassle-free money back guarantee</p>
+        </header>
+        <section class="content">
+            <p>Gain access to our full library tutorials</p>
+            <p>along with expert code reviews. perfect for</p>
+            <p>any developers who are serious about</p>
+            <p>honing their skills</p>
+        </section>
+        <section class="subscription">
+            <h2>monthly subscription</h2>
+            <p>$29 per month - less than $1 a day</p>
+            <button id="signUpButton">Sign Up</button>
+        </section>
+        <section class="why-us">
+            <h3>Why Us</h3>
+            <ul>
+                <li> peer & expert code review</li>
+                <li> Coding exercises</li>
+                <li> Access to our Github repos</li>
+                <li> Community forum</li>
+                <li> Flashcard decks</li>
+                <li> New videos every week</li>
+            </ul>
+            </section>
+        </div>
+        <script>
+
+            // get the sign up button 
+            const signUpButton= document.getElementById ('signUpButton');
+
+            // add an event listener to the button
+            signUpButton.addEventListener('click', () => {
+
+            //display a confirmation message 
+            alert('Thank you for signing up!');
+        });
+        </script>
+
+    <footer>
+        <p class="attribution"> Challange by<a href="http://www.frontendmentor.io?ref=Challange"target="_blank">Frontend Mentor</a>
+            Coded by <a herf="#">Bongeka Bhungane</a>
+        </p>
+    </footer>
+    </body>
+    </html>
